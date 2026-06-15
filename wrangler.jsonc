@@ -8,5 +8,10 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
-  "main": ".open-next/worker.js"
+  "main": ".open-next/worker.js",
+  "vars": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://bgswupnutsojlnpzwzop.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJnc3d1cG51dHNvamxucHp3em9wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0MDQ4NzAsImV4cCI6MjA5MTk4MDg3MH0.Dcj29KFBpDbDxx--YpuEHK2HtchRId0ZnLmNWAGUxUU",
+    "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJnc3d1cG51dHNvamxucHp3em9wIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NjQwNDg3MCwiZXhwIjoyMDkxOTgwODcwfQ.gECAMSWT8C6NhLF2gVpYdZISzZftehzymDDyyQkhuy0"
+  }
 }
