@@ -1,25 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async headers() {
-    return [
+  optimizeFonts: false,
+  images: {
+    remotePatterns: [
       {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'Content-Security-Policy',
-            value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-eval' 'unsafe-inline'",
-              "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' data: blob:",
-              "font-src 'self'",
-              "connect-src 'self' https://*.supabase.co wss://*.supabase.co",
-            ].join('; '),
-          },
-        ],
+        protocol: 'https',
+        hostname: 'bgswupnutsojlnpzwzop.supabase.co',
+        port: '',
+        pathname: '/storage/v1/object/public/**',
       },
-    ]
+    ],
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
